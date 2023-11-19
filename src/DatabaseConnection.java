@@ -6,10 +6,9 @@ public class DatabaseConnection {
         Connection connection = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            String url = "jdbc:mysql://localhost:3306/colegio_amigos_de_don_bosco";
-            String username = "root";
-            String password = "Danibanani2619";
-
+            String url = "jdbc:mysql://158.69.48.30:55201/colegio_amigos_de_don_bosco";
+            String username = "poo23";
+            String password = "87MmfPc14q7ZChaqrK8X";
             connection = DriverManager.getConnection(url, username, password);
         } catch (SQLException e) {
             e.printStackTrace();
